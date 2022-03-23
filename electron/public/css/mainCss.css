@@ -5,31 +5,7 @@
    font-family: 'belwe-bd-bt-bold', sans-serif;
 }
 
-#bodyText{
-    margin-top: 2%;
-}
-
 body{
     background-image: url("../img/bg5.png");
-    text-align: center;
 }
 
-input {
-    padding: 10px;
-    margin: 0.75%;
-    border-radius: 7px;
-    border-color: #33beff;
-    border-style: outset;
-    color: #497179;
-}
-
-#submitBtn{
-    padding: 10px;
-    position: relative;
-}
-
-h1{
-    margin: 5px;
-    color: #0a0a0a;
-    font-weight: bolder;
-}
