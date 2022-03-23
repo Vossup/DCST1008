@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Navbar.css">
+    <link rel="stylesheet" href="../css/mainCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://www.dafontfree.net/embed/YmVsd2UtYmQtYnQtYm9sZCZkYXRhLzIzL2IvMTE0ODE4L0JlbHdlQmRCVEJvbGQudHRm" rel="stylesheet" type="text/css"/>
+    <title>Hearthstone tournament generator</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="Round1.html">Swiss 1</a></li>
+      <li><a href="Round2.html">Swiss 2</a></li>
+      <li><a href="Round3.html">Swiss 3</a></li>
+      <li><a href="Round4.html">Swiss 4</a></li>
+      <li><a href="Round5.html">Swiss 5</a></li>
+      <li><a href="Round6.html">Swiss 6</a></li>
+    </ul>
+    <div id="bodyText">
+    </div>
+    <script>
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = { isDisabled: true };
+      require('@babel/register');
+      require('../../src/swiss.js');
+    </script>
+  </body>
+</html>
